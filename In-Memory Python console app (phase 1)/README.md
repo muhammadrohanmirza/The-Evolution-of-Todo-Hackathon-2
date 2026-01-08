@@ -90,3 +90,38 @@ Time-aware and recurring task capabilities:
 - **Python Standard Library only**  
 
 ---
+
+🧪 Testing & Validation
+
+Core logic is validated using deterministic checks
+
+Manual testing ensures all success criteria are met
+
+Testing scope is intentionally lightweight to align with hackathon constraints
+
+No external testing frameworks are required
+
+🏁 Why This Project Stands Out
+
+Fully spec-driven, not ad-hoc coding
+
+Clear evolution from MVP to advanced features
+
+Strong focus on clarity, maintainability, and scope control
+
+Hackathon-ready: easy to demo and easy to explain
+
+Demonstrates real-world engineering discipline in a simple console app
+
+📜 License
+
+This project is created for educational and hackathon purposes.
+
+🙌 Acknowledgements
+
+Spec-Kit Plus for structured specification workflows
+
+Qwen LLM for assistance in specification authoring
+
+The Python open-source community ❤️
+
