@@ -106,7 +106,7 @@ python src/main.py
 
 ---
 
-🧪 Testing & Validation
+## 🧪 Testing & Validation
 
 -Core logic is validated using deterministic checks
 
@@ -118,7 +118,7 @@ python src/main.py
 
 ---
 
-🏁 Why This Project Stands Out
+## 🏁 Why This Project Stands Out
 
 -Fully spec-driven, not ad-hoc coding
 
@@ -132,13 +132,13 @@ python src/main.py
 
 ---
 
-📜 License
+## 📜 License
 
 -This project is created for educational and hackathon purposes.
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 -Spec-Kit Plus for structured specification workflows
 
