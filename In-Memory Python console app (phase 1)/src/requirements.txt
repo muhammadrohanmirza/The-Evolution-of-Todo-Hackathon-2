@@ -1,0 +1,5 @@
+# Requirements for Todo Application
+# This application uses only Python standard library components
+
+# No external dependencies required
+# Python 3.13+ is recommended

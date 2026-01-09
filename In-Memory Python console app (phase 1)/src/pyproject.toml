@@ -1,12 +1,19 @@
-[project]
-name = "hackathon-phase-1"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[tool.uv.workspace]
-members = [
-    "src",
-]
+[project]
+name = "todo-app-time-aware"
+version = "1.0.0"
+description = "A time-aware and recurring task console application"
+authors = [{name = "Todo App Developer"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+todo-app = "main:main"

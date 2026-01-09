@@ -1,8 +1,8 @@
 version = 1
 revision = 3
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 
 [[package]]
-name = "hackathon-phase-1"
-version = "0.1.0"
-source = { virtual = "." }
+name = "todo-app-time-aware"
+version = "1.0.0"
+source = { editable = "." }

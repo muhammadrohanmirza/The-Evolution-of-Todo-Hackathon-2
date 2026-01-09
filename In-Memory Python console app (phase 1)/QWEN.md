@@ -208,9 +208,9 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Current Feature Context
 
-- **Active Feature**: 002-task-enhancements (Task Organization and Usability Enhancements)
-- **Feature Focus**: Adding priority levels, search, filter, and sort capabilities to the Todo In-Memory Python Console Application
-- **Key Changes**: Extended Task model with priority attribute, search functionality, filtering and sorting operations, enhanced CLI interface
+- **Active Feature**: 003-time-aware-tasks (Time-Aware and Recurring Tasks)
+- **Feature Focus**: Adding time-aware capabilities (due dates, overdue tasks) and recurring tasks to the Todo In-Memory Python Console Application
+- **Key Changes**: Extended Task model with due_date and recurrence_pattern attributes, date/time utilities, recurring task generation logic, enhanced CLI interface
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.

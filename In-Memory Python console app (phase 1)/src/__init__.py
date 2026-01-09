@@ -8,7 +8,6 @@ __version__ = "1.0.0"
 __author__ = "Todo App Developer"
 
 # Import main classes to make them available at package level
-from .todo_manager import TodoManager
-from .models import Task
+from .models.task import Task, RecurrencePattern, Priority
 
-__all__ = ["TodoManager", "Task"]
+__all__ = ["Task", "RecurrencePattern", "Priority"]
